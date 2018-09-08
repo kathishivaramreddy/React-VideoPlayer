@@ -33,7 +33,7 @@ class App extends Component {
         </header>
         <br/>
         <body>
-          <Menu />
+          <Menu chooseVideo={this.chooseVideo}/>
           <Video src = {this.state.src}/>
         </body>
         </div>
