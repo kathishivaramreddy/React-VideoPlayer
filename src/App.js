@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Video} from './Video';
 
 const VIDEOS = {
   fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
@@ -24,6 +25,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Video Player</h1>
         </header>
+        <Video src = {this.state.src}/>
       </div>
     );
   }

@@ -7,7 +7,7 @@ export class Video extends React.Component{
 
     return(
       <div>
-        <video controls autostart autoplay />
+        <video controls autostart autoplay src={this.props.src}/>
       </div>
         );
   }
