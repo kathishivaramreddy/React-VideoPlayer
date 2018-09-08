@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const VIDEOS = {
+  fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
+  slow: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-slow.mp4',
+  cute: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4',
+  eek: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4'
+};
+
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">
