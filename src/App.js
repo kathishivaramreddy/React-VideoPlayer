@@ -17,6 +17,11 @@ class App extends Component {
     super(props);
 
     this.state = {src : VIDEOS.fast}
+    this.chooseVideo =this.chooseVideo.bind(this);
+  }
+
+  chooseVideo(newVideo){
+    this.setState( {src : VIDEOS[newVideo]})
   }
 
   render() {
