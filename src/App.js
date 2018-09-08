@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Video} from './Video';
+import {Menu} from './Menu'
 
 const VIDEOS = {
   fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
@@ -27,6 +28,7 @@ class App extends Component {
         </header>
         <br/>
         <body>
+          <Menu />
           <Video src = {this.state.src}/>
         </body>
         </div>
