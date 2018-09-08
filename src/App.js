@@ -25,8 +25,11 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Video Player</h1>
         </header>
-        <Video src = {this.state.src}/>
-      </div>
+        <br/>
+        <body>
+          <Video src = {this.state.src}/>
+        </body>
+        </div>
     );
   }
 }
