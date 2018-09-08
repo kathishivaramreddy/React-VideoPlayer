@@ -11,6 +11,11 @@ const VIDEOS = {
 
 class App extends Component {
 
+  constructor(props){
+    super(props);
+
+    this.state = {src = VIDEOS.fast}
+  }
 
   render() {
     return (
